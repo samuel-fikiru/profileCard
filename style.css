@@ -1,0 +1,22 @@
+
+
+
+.product-card-container{
+    height: 400px;
+    width: 240px;
+    border-radius: 30px;
+    margin-left: 80px;
+    box-shadow: 0px 0px 50px rgb(224, 219, 219);
+    background-color: red;
+}
+.image-container{
+    width: 230px;
+    height: 390px;
+    border-radius: 30px;
+    background-color: black;
+}
+.profile-image{
+    width: 230px;
+    height: 390px;
+    object-fit: cover;
+}
