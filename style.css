@@ -1,20 +1,22 @@
 body{
     margin: 0;
+    margin-bottom: 500px;
 }
 
 p{
     margin: 0;
-    font-family: Arial, "Roboto", sans-serif;
-    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
 }
 
 
 .product-card-container{
-    height: 400px;
     width: 240px;
     border-radius: 30px;
     margin-left: 80px;
     margin-top: 20px;
+    padding: 5px;
+    padding-bottom: 15px;
     box-shadow: 0px 0px 50px rgb(224, 219, 219);
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -23,17 +25,16 @@ p{
     justify-content: top;
 }
 .image-container{
-    width: 230px;
     height: 230px;
-    margin-top: 5px;
     border-radius: 30px;
     background-color: rgb(218, 218, 218);
     overflow: hidden;
 }
 .profile-image{
-    width: 230px;
+    width: 100%;
     height: 390px;
     object-fit: cover;
+    zoom: 1.1;
 }
 .profile-info-container{
     margin-left: 20px;
@@ -44,22 +45,25 @@ p{
     align-items: center;
     margin-top: 15px;
 }
+.profile-name{
+    font-weight: 600;
+}
 .checkmark-image{
-    width: 18px;
-    height: 18px;
-    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
 }
 .profile-bio-container{
     margin-top: 10px;
     margin-bottom: 25px;
     font-size: 15px;
-    color: rgb(158, 158, 158);
     width: 100%;
 }
 
 .profile-bio{
     font-size: 14px;
-    margin-right: 15px;
+    margin-right: 20px;
+    color: rgb(139, 139, 139);
 }
 
 .profile-stat-continer{
@@ -71,27 +75,30 @@ p{
     display: flex;
     align-items: center;
 }
-.icons{
+.man-icon{
     width: 25px;
     height: 25px;
+    margin-right: -5px;
 }
-.gallary-icon, .plus-icon{
+.gallary-icon{
     width: 15px;
     height: 15px;
 }
 .plus-icon{
+    width: 14px;
+    height: 14px;
     margin-left: 5px;
 }
 .count-numbers{
     font-size: 13px;
     margin-left: 5px;
-    font-weight: bold;
-    color: rgb(48, 48, 48);
+    color: rgb(103, 102, 102);
+    font-weight: bolder;
 }
 .follow-button{
     border: none;
     padding: 10px 15px;
     border-radius: 20px;
     color: rgb(81, 78, 78);
-    font-weight: bold;
+    font-weight: bolder;
 }
