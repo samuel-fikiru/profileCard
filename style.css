@@ -9,6 +9,9 @@ p{
     font-weight: 500;
 }
 
+.product-cart-container-grid{
+    display: flex;
+}
 
 .product-card-container{
     width: 240px;
