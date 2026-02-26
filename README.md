@@ -55,4 +55,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-*Feel free to use and modify this profile card for your own projects!*
+## Inspiration
+
+This profile card is inspired by a design from [Figma Community](https://figma.com/community/file/1505853580184
