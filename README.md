@@ -11,7 +11,7 @@ A simple and visually appealing profile card component built with **HTML**, **CS
 
 ## Preview
 
-![Profile Card Screenshot](screenshot.PNG)
+![Profile Card Screenshot](screenshoot.PNG)
 
 ## Getting Started
 
